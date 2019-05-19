@@ -1,0 +1,106 @@
+/*pacnik */
+
+.bg-pacnik {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.pacnik-content {
+	width: 500px;
+	height: 430px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.close-pacnik {
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+/* klakocer */
+.bg-klakocer {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.klakocer-content {
+	width: 500px;
+	height: 250px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.close-klakocer {
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+div.gallery1 {
+  margin: 5px;
+  border: 1px solid black;
+  width: ;
+  transition: 1s ease;
+  transition-delay: 1s ease;
+}
+
+div.gallery1:hover {
+  border: 1px solid #777;}
+
+div.gallery1 img {
+  width: 100%;
+}
+
+.responsive1 {
+  padding: 0 6px;
+  width: 33%;
+}
+
+/* začetna */
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid black;
+  width: 250px;
+  transition: 1s ease;
+  transition-delay: 1s ease;
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;}
+
+div.gallery2 img {
+  width: 120%;
+  height: auto;
+}
+
+.medalje1 {
+  padding: 0 6px;
+  width: 33%;
+}
